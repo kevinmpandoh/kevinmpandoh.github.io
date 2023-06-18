@@ -114,7 +114,7 @@ let swiper = new Swiper('.portfolio__container', {
 
 /*==================== Typed JS ====================*/
 let typed = new Typed(".home__subtitle", {
-    strings: ["Frontend Developer", "Backend Developer", "Fullstact Developer"],
+    strings: ["Front-End Developer", "Back-End Developer", "Fullstack Developer"],
     typeSpeed: 35,
     backSpeed: 35,
     backDelay: 1000,

@@ -594,7 +594,7 @@ img {
 /*==================== SERTIFIKAT ====================*/
 .sertifikat__container {
   gap: 1.5rem;
-  grid-template-columns: repeat(3, 1fr); 
+  
 }
 
 .blog-item .inner {
@@ -1102,17 +1102,8 @@ img {
     gap: .5rem;
   }
 
-  .services__container {
-    grid-template-columns: max-content;
-    justify-content: center;
-  }
-
-  .services__content {
-    padding-right: 3.5rem;
-  }
-
-  .services__modal {
-    padding: 0 .5rem;
+  .sertifikat__container {
+    grid-template-columns: max-content 1fr 1fr;    
   }
 
 
@@ -1136,6 +1127,7 @@ img {
 
   .about__container,
   .skills__container,
+  .sertifikat__container,
   .portfolio__content,
   .contact__container,
   .footer__container
@@ -1147,7 +1139,7 @@ img {
     display: grid;
     grid-template-columns: .6fr;
     justify-content: center;
-  }
+  }  
 }
 
 @media screen and (min-width: 768px) {
@@ -1243,6 +1235,10 @@ img {
     justify-content: initial;
   }
 
+  .sertifikat__container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
   .qualification__tabs {
     justify-content: center;
   }
@@ -1307,8 +1303,8 @@ img {
     transform: translateX(-6rem);
   }
 
-  .services__container {
-    grid-template-columns: repeat(3, 238px);
+  .sertifikat__container {
+    grid-template-columns: repeat(4, 1fr);
   }
 
   .portfolio__content {
