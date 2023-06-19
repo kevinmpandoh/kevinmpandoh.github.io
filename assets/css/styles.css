@@ -1303,10 +1303,6 @@ img {
     transform: translateX(-6rem);
   }
 
-  .sertifikat__container {
-    grid-template-columns: repeat(4, 1fr);
-  }
-
   .portfolio__content {
     column-gap: 5rem;
   }
