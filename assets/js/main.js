@@ -107,8 +107,8 @@ let swiper = new Swiper('.portfolio__container', {
         el: '.swiper-pagination',
         clickable: true,
     },
-    mousewheel: false,
-    keyboard: true,
+    mousewheel: true,
+    keyboard: true, 
     
 })
 
