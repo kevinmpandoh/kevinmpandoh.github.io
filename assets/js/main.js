@@ -114,7 +114,11 @@ let swiper = new Swiper('.portfolio__container', {
 
 /*==================== Typed JS ====================*/
 let typed = new Typed(".home__subtitle", {
-    strings: ["Front-End Developer", "Back-End Developer", "Fullstack Developer"],
+    strings: ["Front-End Developer", "Back-End Developer", "Full-stack Developer"],    
+    smartBackspace: true, 
+    showCursor: true,
+    cursorChar: '|',
+    autoInsertCss: true, 
     typeSpeed: 35,
     backSpeed: 35,
     backDelay: 1000,
