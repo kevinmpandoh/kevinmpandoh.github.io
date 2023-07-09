@@ -113,7 +113,7 @@ let swiper = new Swiper('.portfolio__container', {
 })
 
 /*==================== Typed JS ====================*/
-let typed = new Typed(".home__subtitle", {
+let typed = new Typed(".multiple-text", { 
     strings: ["Front-End Developer", "Back-End Developer", "Full-stack Developer"],    
     smartBackspace: true, 
     showCursor: true,
@@ -124,6 +124,22 @@ let typed = new Typed(".home__subtitle", {
     backDelay: 1000,
     loop: true
 })
+
+/*==================== Scroll Reveal ====================*/
+ScrollReveal({
+    reset: true,
+    distance: "80px",
+    duration: 2000,
+    delay: 200
+});
+
+ScrollReveal().reveal('.home__content, .section__title, .section__subtitle, .qualification', { origin: "top" });
+ScrollReveal().reveal('.sertifikat__container', { origin: "bottom" }); 
+ScrollReveal().reveal('.home__social, .about__img, .skills__open, .contact__information', { origin: "left" });   
+ScrollReveal().reveal('.about__data, .skills__close, .contact__form', { origin: "right" });
+
+    
+
 
 /*==================== EMAIL JS ====================*/
 const contactForm = document.getElementById('contact-form'),
